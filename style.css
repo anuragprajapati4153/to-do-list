@@ -67,7 +67,7 @@ h1 {
     list-style: none;
 }
 
-.todo-item {
+li {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -81,7 +81,7 @@ h1 {
     font-size: 1rem;
 }
 
-.delete-btn {
+li>button {
     background-color: #b22222;
     color: #fff;
     border: none;
